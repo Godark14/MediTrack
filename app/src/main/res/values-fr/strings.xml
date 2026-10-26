@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediTrack</string>
+
+    <!-- Navigation -->
+    <string name="nav_today_label">Aujourd’hui</string>
+    <string name="nav_medications_label">Médicaments</string>
+    <string name="navigate_back_content_description">Retour</string>
+    <string name="undo_label">Annuler</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Annuler</string>
+
+    <!-- Today -->
+    <string name="today_title">Aujourd’hui</string>
+    <string name="today_progress_format">Prises effectuées : %1$d sur %2$d</string>
+    <string name="today_section_attention">À traiter</string>
+    <string name="today_section_upcoming">À venir</string>
+    <string name="today_section_done">Terminées</string>
+    <string name="today_empty_title">Aucune prise prévue aujourd’hui</string>
+    <string name="today_empty_message">Touchez «\u00A0Ajouter un médicament\u00A0» pour configurer votre premier rappel.</string>
+    <string name="dose_status_upcoming">À venir</string>
+    <string name="dose_status_due">À prendre maintenant</string>
+    <string name="dose_status_missed">Prise manquée</string>
+    <string name="dose_status_taken">Prise effectuée</string>
+    <string name="dose_status_skipped">Prise ignorée</string>
+    <string name="dose_action_taken">Pris</string>
+    <string name="dose_action_skip">Ignorer</string>
+    <string name="dose_supporting_format">%1$s · %2$s</string>
+    <string name="dose_taken_message">Prise enregistrée\u00A0: %1$s</string>
+    <string name="dose_skipped_message">Prise ignorée\u00A0: %1$s</string>
+
+    <!-- Medication form -->
+    <string name="add_medication_fab">Ajouter un médicament</string>
+    <string name="add_medication_title">Ajouter un médicament</string>
+    <string name="edit_medication_title">Modifier le médicament</string>
+    <string name="medication_name_label">Nom</string>
+    <string name="medication_dosage_label">Dosage</string>
+    <string name="medication_dosage_hint">Par exemple 500 mg ou 2 comprimés</string>
+    <string name="medication_form_label">Forme</string>
+    <string name="medication_form_pill">Comprimé</string>
+    <string name="medication_form_capsule">Gélule</string>
+    <string name="medication_form_liquid">Liquide</string>
+    <string name="medication_form_injection">Injection</string>
+    <string name="medication_form_drops">Gouttes</string>
+    <string name="medication_form_other">Autre</string>
+    <string name="medication_times_label">Horaires</string>
+    <string name="medication_add_time">Ajouter un horaire</string>
+    <string name="medication_times_error">Ajoutez au moins un horaire</string>
+    <string name="medication_remove_time_content_description">Supprimer l’horaire</string>
+    <string name="medication_days_label">Jours</string>
+    <string name="medication_days_error">Sélectionnez au moins un jour</string>
+    <string name="medication_period_label">Période</string>
+    <string name="medication_start_date_label">Début</string>
+    <string name="medication_end_date_label">Fin</string>
+    <string name="medication_no_end_date">Sans date de fin</string>
+    <string name="medication_clear_end_date">Effacer</string>
+    <string name="medication_end_date_error">La date de fin ne peut pas précéder la date de début</string>
+    <string name="medication_notes_label">Notes (facultatif)</string>
+    <string name="medication_save_button">Enregistrer</string>
+    <string name="medication_update_button">Mettre à jour</string>
+    <string name="time_picker_title">Choisir l’heure</string>
+
+    <!-- Medications list -->
+    <string name="medications_title">Médicaments</string>
+    <string name="medications_subtitle_default">Gérez vos traitements</string>
+    <string name="medications_subtitle_format">Actifs\u00A0: %1$d · Archivés\u00A0: %2$d</string>
+    <string name="medications_empty_title">Aucun médicament</string>
+    <string name="medications_empty_message">Ajoutez votre premier médicament pour suivre vos prises.</string>
+    <string name="medications_section_active">Actifs</string>
+    <string name="medications_section_archived">Archivés</string>
+    <string name="medication_summary_format">%1$s · %2$s · %3$s</string>
+    <string name="medication_every_day">Tous les jours</string>
+    <string name="medication_more_content_description">Plus d’options</string>
+    <string name="medication_menu_edit">Modifier</string>
+    <string name="medication_menu_archive">Archiver</string>
+    <string name="medication_menu_restore">Restaurer</string>
+    <string name="medication_menu_delete">Supprimer</string>
+    <string name="medication_archived_message">Médicament archivé\u00A0: %1$s</string>
+    <string name="medication_restored_message">Médicament restauré\u00A0: %1$s</string>
+    <string name="medication_deleted_message">Médicament supprimé\u00A0: %1$s</string>
+    <string name="medication_delete_title">Supprimer le médicament\u00A0?</string>
+    <string name="medication_delete_message">%1$s et tout son historique seront définitivement supprimés. Pour conserver l’historique, archivez-le plutôt.</string>
+    <string name="medication_delete_confirm">Supprimer</string>
+
+    <!-- Reminders -->
+    <string name="channel_dose_reminders_name">Rappels de prise</string>
+    <string name="channel_dose_reminders_description">Rappels lorsqu’il est l’heure de prendre un médicament</string>
+    <string name="notification_title_format">C’est l’heure\u00A0: %1$s</string>
+    <string name="notification_text_format">%1$s · prévu à %2$s</string>
+    <string name="notification_action_taken">Pris</string>
+    <string name="notification_action_skip">Ignorer</string>
+    <string name="notification_public_title">Rappel de médicament</string>
+    <string name="notification_public_text">C’est l’heure d’une prise</string>
+    <string name="reminder_banner_title">Les rappels sont désactivés</string>
+    <string name="reminder_banner_notifications_message">Autorisez les notifications pour que MediTrack vous rappelle quand il est l’heure d’une prise.</string>
+    <string name="reminder_banner_allow_notifications">Autoriser les notifications</string>
+    <string name="reminder_banner_exact_alarms_message">Autorisez les alarmes et rappels pour que les prises soient annoncées à l’heure exacte, même quand votre téléphone est en veille.</string>
+    <string name="reminder_banner_allow_exact_alarms">Autoriser les alarmes exactes</string>
+
+    <!-- History -->
+    <string name="nav_history_label">Historique</string>
+    <string name="history_title">Historique</string>
+    <string name="history_subtitle">Votre observance au fil du temps</string>
+    <string name="history_range_7_days">7 jours</string>
+    <string name="history_range_30_days">30 jours</string>
+    <string name="history_adherence_title">Observance</string>
+    <string name="history_adherence_none">Pas encore assez de données</string>
+    <plurals name="history_streak_days">
+        <item quantity="one">Série de %d jour</item>
+        <item quantity="other">Série de %d jours</item>
+    </plurals>
+    <string name="history_section_calendar">Calendrier</string>
+    <string name="history_section_by_medication">Par médicament</string>
+    <string name="history_day_no_doses">Aucune prise prévue ce jour-là</string>
+    <string name="history_status_complete">Toutes prises</string>
+    <string name="history_status_partial">Partiel</string>
+    <string name="history_status_missed">Manquées</string>
+    <string name="history_status_pending">En attente</string>
+    <string name="history_status_none">Aucune prise</string>
+    <string name="history_day_content_description_format">%1$s, %2$s</string>
+    <string name="history_empty_title">Pas encore d’historique</string>
+    <string name="history_empty_message">Ajoutez un médicament pour suivre votre observance.</string>
+
+    <!-- PDF export -->
+    <string name="export_report_fab">Exporter en PDF</string>
+    <string name="export_generating">Génération…</string>
+    <string name="export_share_chooser_title">Partager le rapport</string>
+    <string name="export_share_subject">Rapport d’observance MediTrack</string>
+    <string name="export_error_message">Impossible de créer le rapport. Veuillez réessayer.</string>
+    <string name="report_pdf_title">Rapport d’observance des médicaments</string>
+    <string name="report_pdf_period_format">Période\u00A0: du %1$s au %2$s (%3$d jours)</string>
+    <string name="report_pdf_generated_format">Généré le %1$s</string>
+    <string name="report_pdf_section_medications">Observance par médicament</string>
+    <string name="report_pdf_section_incidents">Prises manquées ou ignorées</string>
+    <string name="report_pdf_no_incidents">Aucune prise manquée ou ignorée sur cette période.</string>
+    <string name="report_pdf_col_medication">Médicament</string>
+    <string name="report_pdf_col_dosage">Dosage</string>
+    <string name="report_pdf_col_taken">Prises</string>
+    <string name="report_pdf_col_rate">Taux</string>
+    <string name="report_pdf_col_date">Date</string>
+    <string name="report_pdf_col_time">Heure</string>
+    <string name="report_pdf_col_status">Statut</string>
+    <string name="report_pdf_page_format">Page %1$d</string>
+    <string name="report_pdf_disclaimer">Ce rapport est généré à partir des informations saisies dans MediTrack. Il ne constitue ni un dossier médical ni un avis médical. Discutez-en avec votre professionnel de santé.</string>
+
+    <!-- Splash & onboarding -->
+    <string name="splash_tagline">Ta santé, à l’heure</string>
+    <string name="splash_subtitle">Rappels de médicaments et suivi d’observance</string>
+    <string name="onboarding_title">Bienvenue dans MediTrack</string>
+    <string name="onboarding_subtitle">Faisons connaissance. Comment doit-on t’appeler\u00A0?</string>
+    <string name="onboarding_name_label">Ton prénom</string>
+    <string name="onboarding_continue">Continuer</string>
+    <string name="onboarding_skip">Passer pour l’instant</string>
+    <string name="onboarding_privacy_note">Tout reste sur ton téléphone. Pas de compte, pas de cloud.</string>
+
+    <!-- Greeting -->
+    <string name="greeting_morning">Bonjour</string>
+    <string name="greeting_afternoon">Bonjour</string>
+    <string name="greeting_evening">Bonsoir</string>
+    <string name="greeting_with_name_format">%1$s, %2$s</string>
+    <string name="message_no_doses">Rien de prévu aujourd’hui. Profite de ta journée\u00A0!</string>
+    <string name="message_all_done">Toutes tes prises du jour sont faites. Bravo\u00A0!</string>
+    <string name="message_all_done_late">Tout est fait pour aujourd’hui. Bonne nuit\u00A0!</string>
+    <string name="message_all_skipped">Toutes les prises du jour ont été ignorées.</string>
+    <string name="message_check_in">As-tu pris tes médicaments aujourd’hui\u00A0?</string>
+    <plurals name="message_due_now">
+        <item quantity="one">Une prise est à faire maintenant.</item>
+        <item quantity="other">%d prises sont à faire maintenant.</item>
+    </plurals>
+    <plurals name="message_missed">
+        <item quantity="one">Tu as manqué une prise aujourd’hui.</item>
+        <item quantity="other">Tu as manqué %d prises aujourd’hui.</item>
+    </plurals>
+    <string name="message_next_dose_format">Prochaine prise à %1$s\u00A0: %2$s</string>
+    <string name="settings_content_description">Réglages</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Réglages</string>
+    <string name="settings_section_profile">Profil</string>
+    <string name="settings_name_title">Prénom</string>
+    <string name="settings_name_not_set">Non renseigné</string>
+    <string name="settings_name_dialog_title">Ton prénom</string>
+    <string name="settings_section_appearance">Apparence</string>
+    <string name="settings_theme_title">Thème</string>
+    <string name="settings_theme_system">Système</string>
+    <string name="settings_theme_light">Clair</string>
+    <string name="settings_theme_dark">Sombre</string>
+    <string name="settings_dynamic_color_title">Couleurs dynamiques</string>
+    <string name="settings_dynamic_color_summary">Utiliser les couleurs du fond d’écran</string>
+    <string name="settings_section_language">Langue</string>
+    <string name="settings_language_title">Langue de l’app</string>
+    <string name="settings_language_summary_format">%1$s · toucher pour changer</string>
+    <string name="settings_section_reminders">Rappels</string>
+    <string name="settings_notifications_title">Notifications</string>
+    <string name="settings_exact_alarms_title">Alarmes exactes</string>
+    <string name="settings_status_allowed">Autorisées</string>
+    <string name="settings_status_off">Désactivées · toucher pour corriger</string>
+    <string name="settings_section_privacy">Confidentialité</string>
+    <string name="settings_delete_title">Supprimer toutes mes données</string>
+    <string name="settings_delete_summary">Efface les médicaments, l’historique et les réglages de ce téléphone</string>
+    <string name="settings_delete_dialog_title">Supprimer toutes les données\u00A0?</string>
+    <string name="settings_delete_dialog_message">Tous les médicaments, l’historique des prises et les réglages seront définitivement supprimés de ce téléphone. Cette action est irréversible.</string>
+    <string name="settings_delete_confirm">Tout supprimer</string>
+    <string name="settings_section_about">À propos</string>
+    <string name="settings_version_title">Version</string>
+    <string name="settings_about_title">Avertissement médical</string>
+    <string name="settings_about_message">MediTrack aide à penser à ses médicaments et à suivre ses prises. Ce n’est pas un dispositif médical et il ne remplace pas l’avis d’un professionnel de santé.</string>
+</resources>
